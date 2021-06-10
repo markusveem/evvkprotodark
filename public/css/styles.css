@@ -4,20 +4,7 @@ body {
     font-family: 'Merriweather', serif;
     padding: 10px;
     -webkit-font-smoothing: antialiased;
-    
 }
-
-
-body.dark {
-    background-color: rgb(20, 27, 20);
-    /*color: aquamarine;*/
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Merriweather', serif;
-    padding: 10px;
-
-    -webkit-font-smoothing: antialiased;
-    /*font-size: 36px;*/
-} 
 
 nav {
     display: flex;
@@ -49,9 +36,6 @@ nav a {
     width: 100%;
     transition: 0.2s all;
 }
-
-
-
 nav a:nth-of-type(1) {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -420,7 +404,6 @@ input[type="checkbox"] {
         justify-content: space-between;
         align-items: center;
     }
-
     .dropdown * {
         width: 100%;
     }
@@ -441,10 +424,7 @@ input[type="checkbox"] {
         flex: 1 1;
         min-width: 33%;
     }
-
 }
-
-
 
 /*DARK LIGHT MODE SWITCH*/
 
@@ -493,7 +473,7 @@ input[type="checkbox"] {
 }
 
 .checkbox_color:checked + .checkbox_label .ball {
-    transform: translateX(36px); /*24px*/
+    transform: translateX(26px); /*24px*/
 }
 
 .fa-moon {
@@ -513,3 +493,14 @@ label i {
     font-size: 36px;
 
 }
+
+body.dark {
+    background-color: rgb(20, 27, 20);
+    /*color: aquamarine;*/
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+
+    -webkit-font-smoothing: antialiased;
+    /*font-size: 36px;*/
+} 
